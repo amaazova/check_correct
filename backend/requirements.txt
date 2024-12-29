@@ -1,0 +1,5 @@
+# Streamlit и сопутствующие зависимости
+streamlit==1.25.0
+pandas==1.5.3
+plotly==5.17.0
+requests==2.31.0
