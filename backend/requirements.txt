@@ -4,7 +4,7 @@
 fastapi==0.95.2
 uvicorn==0.21.1
 pandas==1.5.3
-numpy==1.23.5
+numpy
 Cython>=0.29
 scikit-learn==1.2.2
 statsmodels==0.13.5
@@ -15,7 +15,7 @@ setuptools>=58
 wheel
 
 # Сам pmdarima
-pmdarima==1.8.2
+pmdarima
 
 # Остальное
 streamlit==1.25.0
