@@ -15,7 +15,7 @@ setuptools>=58
 wheel
 
 # Сам pmdarima
-pmdarima==2.0.3
+pmdarima==1.8.2
 
 # Остальное
 streamlit==1.25.0
