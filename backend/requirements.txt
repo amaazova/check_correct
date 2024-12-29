@@ -1,25 +1,23 @@
-# requirements.txt
+# Устанавливаем инструменты сборки
+setuptools>=65
+wheel
+Cython>=0.29
 
-# Основные пакеты Python
+# Основные пакеты
 fastapi==0.95.2
 uvicorn==0.21.1
+
 pandas==1.5.3
+# Не указываем впритык numpy==X.Y.Z, дадим pip-у подобрать совместимую версию
 numpy
-Cython>=0.29
 scikit-learn==1.2.2
 statsmodels==0.13.5
 scipy==1.10.1
 
-# Инструменты сборки
-setuptools>=58
-wheel
-
-# Сам pmdarima
-pmdarima
-
-# Остальное
-streamlit==1.25.0
+requests==2.31.0
 plotly==5.17.0
-requests
+streamlit==1.25.0
 
+# pmdarima
+pmdarima==2.0.3
 
