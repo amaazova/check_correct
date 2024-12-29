@@ -19,5 +19,5 @@ plotly==5.17.0
 streamlit==1.25.0
 
 # pmdarima
-pmdarima==2.0.3
+pmdarima
 
